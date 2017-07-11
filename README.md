@@ -6,7 +6,7 @@ The javascript class is attached to a HTML parent div tag using ```ng-controller
 
 So now whatever you type in the textbox updates the ```Customer``` object and when the “Customer” object gets updated it also updates the UI.
 
-```javascript
+```html
 <div ng-controller="Customer">
 	<input type=text id="txtCustomerName"  ng-model="CustomerName"/>
 </div>
